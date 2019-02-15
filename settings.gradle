@@ -1,0 +1,1 @@
+include ':app', ':day1rikao', ':day2rikao', ':day3rikao'

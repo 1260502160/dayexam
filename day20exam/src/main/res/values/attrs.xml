@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TopBar">
+        <attr name="LeftBackground" format="reference"/>
+        <attr name="RightText" format="string"/>
+        <attr name="TextTitle" format="string"/>
+        <attr name="TextColor" format="color"/>
+        <attr name="TextSize" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="ReduceAdd">
+        <attr name="ReDuce" format="reference"/>
+        <attr name="Add" format="reference"/>
+        <attr name="Hint" format="string"/>
+        <attr name="EditSize" format="dimension"/>
+    </declare-styleable>
+</resources>

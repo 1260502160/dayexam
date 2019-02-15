@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <CheckBox
+        android:id="@+id/check_cp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <ImageView
+        android:id="@+id/icon_cp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_launcher_background"
+        />
+
+      <com.bawei.day20exam.Jiajian
+          android:id="@+id/zt_jiajian"
+          android:layout_width="100dp"
+          android:layout_height="wrap_content"
+          app:ReDuce="@drawable/jian"
+          app:Add="@drawable/jia"
+          />
+    <TextView
+        android:id="@+id/textview_cp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>

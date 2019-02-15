@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <com.bawei.day20exam.TopBar
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:TextTitle="标题"
+        app:TextSize="20sp"
+        app:TextColor="#ffffff"
+        android:background="#BB5A2C"
+        app:LeftBackground="@drawable/back"
+        app:RightText="提交"
+        />
+
+    <com.hjm.bottomtabbar.BottomTabBar
+        android:id="@+id/bottombar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>
